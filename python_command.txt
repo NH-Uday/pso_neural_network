@@ -1,0 +1,1 @@
+python multi_object_tracking.py --video videos/bee.mp4 --tracker mil

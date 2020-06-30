@@ -1,0 +1,111 @@
+\documentclass[conference,a4paper]{IEEEtran}
+\usepackage[T1]{fontenc}%T1 fonts have Þ and ð
+\usepackage[utf8]{inputenc}% allows UTF encoding, needed for Icelandic characters
+
+\usepackage{cite}%reorganizing citation numbers
+\usepackage[cmex10]{amsmath}%American Math Society(AMS) math formatting
+\usepackage{amssymb,amsfonts}%AMS extra symbols and fonts
+\interdisplaylinepenalty=2500%allow line breaks in multi-line formulas
+\usepackage{array}%enhanced table tools
+\usepackage[caption=false,font=footnotesize]{subfig}%sub-figures under a main figure
+\usepackage{dblfloatfix}%fix double column figure ordering and placement
+
+\usepackage{algorithmic}%writing algorithms
+\usepackage{graphicx}%graphics inclusion
+% declare the path(s) where your graphic files are
+\graphicspath{{graphics/}{SLR/}}
+% and their extensions so you won't have to specify these with
+% every instance of \includegraphics
+\DeclareGraphicsExtensions{.pdf,.PDF,.jpeg,.JPEG,.jpg,.JPEG,.png,.PNG}
+
+\usepackage{booktabs}%pretty lines in tables: \toprule,\columnrule,\bottomrule
+
+\usepackage{siunitx}%SI unit formatting:  \SI{9.8}{\meter\per\second} and \si{\meter\per\second\square}
+
+\usepackage{textcomp}%special symbols not in all fonts
+\usepackage{xcolor}%color macros
+\usepackage[spaces,hyphens]{url}
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\title{Particle Swarm Intelligence Algorithm Implementation and Performance Analysis on Training of An Artificial Neural Network
+}
+\author{\IEEEauthorblockN{REJWAN AHMED}
+\IEEEauthorblockA{ID: 12-20111-1\\Department of CSSE\\
+AIUB\\
+Dhaka, Bangladesh\\
+rejwan.ahmed@live.com}
+\and
+\IEEEauthorblockN{NAHIN HOSSAIN UDAY}
+\IEEEauthorblockA{ID: 17-33297-1\\Department of CSE\\
+AIUB\\
+Dhaka, Bangladesh\\
+nahinu95@gmail.com}
+\and
+\IEEEauthorblockN{MD ZAHID HASAN}
+\IEEEauthorblockA{ID: 17-34297-1\\Department of CSE\\
+AIUB\\
+Dhaka, Bangladesh\\
+jahid1234.jh@gmail.com}
+}
+\maketitle
+
+ \begin{IEEEkeywords}
+Swarm Intelligence, Artificial Neural Network.
+\end{IEEEkeywords}
+\section{ \textbf{Hybrid Artificial Bee Colony Algorithm and Particle Swarm Search for Global Optimization.\\}
+This paper proposed an algorithm for enlightening the convergence speed, Good point set theory was used to generate the initial population. In order to increase the exploitation ability, the three types of bees were utilized the mechanism of PSO in search of new candidate solutions. To develop the searching ability, the chaotic search operator is applied in the best solution of the recent iteration.
+It was always a problem for neural network based solutions to get stuck in local minima. This proposed ABD-PS algorithm finds a probable solution for this and get a good optimization result.\cite{one} }
+\section{ \textbf{Convolutional Neural Network—Optimized Moth
+Flame Algorithm for Shallow Landslide Susceptible Analysis\\}
+This paper considers the optimizing capacity of a swarm intelligence algorithm named moth flame optimizer (MFO). There are some methods for CNN hyper-parameter optimal search. But this proposed method is showing better results than the regular methods. The fully connected layers of a neural network have a weight. This method is also useful for calculating the weights.
+The application for this algorithm was analysis of shallow landslide susceptibility analysis and this algorithm gives better result than some benchmark functions.
+\cite{two} }
+\section{ \textbf{A Novel Back-propagation Neural Network
+Training Algorithm Designed by an
+Ant Colony Optimization.\\}
+This article presents a new backpropagation training algorithm by applying Ant Colony Optimization to get the optimal connection weights of the backpropagation neural network. This paper considers the concentration of pheromone placed by the artificial ants which are moving on the connection track is the main factor for optimal weight determination.
+This algorithm is tested by two well known functions. Statistic standard normal distribution and a Sin(x) function. The result they get is better than the main BPN algorithm in terms of time, data generalization accuracy and calculating complexity.\cite{three} }
+\section{ \textbf{Application of Chaos Ant Colony Neural Network in Slope Stability Analysis.\\}
+This paper suggested that the ant algorithm and backpropagation neural network is vulnerable when searching in a continuous space. It is vulnerable in the local optimum. This paper introduced a new algorithm called chaos ant colony. It is used for the optimization of weights of the neural network. It is also a dynamic model which has a mode of slope stability analysis. 
+The results showed that, it can avoid some indeterminate factors like critical failure surface and slope failure mechanism. Chaos ant colony was presented which was used for solving non linear problems of slope stability.\cite{four} }
+\section{ \textbf{Designing Beta Basis Function Neural Network for Optimization Using Artificial Bee Colony (ABC).\\}
+This paper focus on the new population meta heuristic to get the optimal Beta Basis Function Neural Network. The training of BBFNN is done by applying Artificial Bee Colony algorithm. The BBFNN is three layered feedforward neural network that generally uses a linear transfer function for its output units. It uses non-linear transfer function (or beta function) for the hidden units.
+The algorithm is used for prediction of the of benchmark problem. The result proved that this algorithm functioned well in this particular application.\cite{five} }
+\section{ \textbf{Rainfall Forecasting Using Neural Network With Bee Colony Optimization.\\}
+This paper proposed a rainfall forecasting model using backpropagation neural network model and bee colony optimization model. One of the problem with backpropagation neural network is initial weights and random biases. By implementing the ant colony optimization algorithm the initial weights and biases problem has been optimized. 
+The result of the applied model is better than only using backpropagation model. There is a area of improvement of this research which is the optimization parameter.\cite{six} }
+\section{ \textbf{Prediction of Stock Market Using Artificial Intelligence.\\}
+This paper compares some artificial intelligence algorithm for predicting stock market values. There are several algorithms are taken in consider which are artificial neural network, feed forward neural network, backpropagation neural network. Some mathematical model are also tested which are Gauss Newton algorithm, Levenberg Marquardt algorithm, Improved Levenberg Marquardt. The swarm intelligence algorithm which are applied in this algorithm are Artificial bee colony, Particle swarm optimization, Cuckoo search, Firefly algorithm, and bat ANN.
+The improved Levenberg Marquardt algorithm proven to be most efficient in this paper. It shows better results and accuracy in term of every parameter.\cite{seven} }
+\section{ \textbf{Novel ABC Based Training Algorithm for Ovarian Cancer Detection Using Neural Network.\\}
+This manuscript proposed a new version of artificial bee colony algorithm which is using the operators of ABC but the name is Error guided Artificial Bee Colony algorithm. Because of applying MSE which can guide the bees for better results, this algorithm is named Error guided ABC. This new model is applied training of a neural network and the algorithm is used for detecting ovarian cancer.The result is far better than traditional ABC algorithm and the accuracy is well enough for this type of sensitive medical issues.\cite{eight} }
+\section{ \textbf{Designing Convolutional Neural Network Architecture by the Firefly Algorithm.\\}
+This paper uses Firefly Algorithm for training Convolutional Neural Network. CNN is used for computer vision related application like image classifications. It can deliver successfully in this domain. One of the drawback of this algorithm is the values of hyper-parameters which has significant impact of its generated results. This paper uses firefly algorithm to optimize these values of hyper-parameter. The result is tested using the MNIST dataset and compared with some other meta heuristic algorithm.
+The results shows better performance of this new proposed algorithm.\cite{nine} }
+\section{ \textbf{Classification of remote sensed data using Artificial Bee Colony algorithm.\\}
+This study presented a model using Artificial Bee Colony and Neural Network algorithm for analysis of satellite data. Traditional statistical methods ignored the spatial distribution of pixels only considering the spectral equivalent to the land cover classes and association between various bands. The proposed model uses object detection n and cataloging in several areas sidestepping the problems related to band correlation. The result is compared with some traditional algorithm.
+ The results is showing that the proposed model is performing better in terms of quality and quantity than the other algorithms. However, a limitation seems to be occurred applying this method. It is identifying the classes. Scoot bees identify the classes which seems to be a large number in feature space. When the threshold reaches maximum iteration some scout bees then converted to onlooker bee. The classification rule can use XOR condition for recognize the classes.\cite{ten} }.
+\section{ \textbf{Subdomain generation using emergent ant colony optimization.\\}
+This study presented a model using Artificial Bee Colony and Neural Network algorithm for analysis of satellite data. Traditional statistical methods ignored the spatial distribution of pixels only considering the spectral equivalent to the land cover classes and association between various bands. The proposed model uses object detection n and cataloging in several areas sidestepping the problems related to band correlation. The result is compared with some traditional algorithm.
+ The results is showing that the proposed model is performing better in terms of quality and quantity than the other algorithms. However, a limitation seems to be occurred applying this method. It is identifying the classes. Scoot bees identify the classes which seems to be a large number in feature space. When the threshold reaches maximum iteration some scout bees then converted to onlooker bee. The classification rule can use XOR condition for recognize the classes.\cite{eleven} }.
+\section{ \textbf{Classification of DNA microarrays using artificial neural networks and ABC algorithm.\\}
+This research paper proposed a methodology to classify DNA microarray. This method makes a feature selection process based on a swarm intelligence algorithm for finding a subset of genes that describe the attributes of a disease. At the same time this algorithm implements the ANN in the fitness function and make a dimensional reduction, provoking that the discrete evaluation be more time consuming and used more computational resources. To make the ANN perform efficiently this paper reduce the number of gene by classifying them using Euclidian distance and then train the ANN with the classified gene to classify DNA microarray.
+The result is good for finding gene of some disease. The dataset was challenging and the algorithm did well.\cite{twelve} }.
+\section{ \textbf{Modification of the fish swarm algorithm with particle swarm optimization formulation and communication behavior.\\}
+This paper modified the fish swarm algorithm in three areas. It used the PSO for the formulation of FSA, developed the communication behavior of FSA and create formulas for major FSA parameter. The this proposed new algorithm is applied in some application areas like neural network learning, iris classification and compared with the main FSA algorithm. It also compared with PSO algorithm.
+The result described that CMFSA performs better in the tested domains. Swarm behavior might be removed from CMFSA to reduce time complexity.\cite{thirteen} }.
+\section{ \textbf{Enhanced artificial bee colony for training least squares support vector machines in commodity price forecasting\\}
+This paper is based on the research of utilized Artificial Bee Colony to optimize the parameters of least squares support vector machines. Some critical issues are also taken into consideration like elevating the searching tactic and prevention of over fitting. There are two modifications are made, which are Levy mutation which is built on Levy Probability and the another one is Distribution and conventional mutation.
+The data processing functions of this algorithm gives better results than the traditional bee colony algorithm. This technique not only accomplished the goal to produce higher prediction accuracy, but also it can ignore the problem of stuck onto local minimum and early convergence.\cite{fourteen} }.
+\section{ \textbf{Recurrent fuzzy system design using elite-guided continuous ant colony optimization\\}
+This paper proposed a model called Elite-Guided Continuous Ant Colony Optimization (ECACO) which is used to design recurrent fuzzy system. ECACO produced a new solution sector for each optimization variable while using separate probability density function (PDF). It doesn’t use joint PDF like traditional methods. The main contribution of this paper is a continuous ACO method which is ECACO because it finds solution in a continuous space. This algorithm is originally motivated by ACO but it actually combines Genetic Algorithm and ACO.
+The result get by this algorithm outperform the other Swarm based algorithms in continuous searching space.\cite{fifteen} }.
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
